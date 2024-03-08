@@ -34,7 +34,7 @@ a {
     text-decoration: none;
 }
 img {
-    width: 100%;
+    max-width: 100%;
 }
 .contenedor {
     max-width: 120rem;
@@ -54,3 +54,31 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+/*Header*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+/*Navegacion*/
+.navegacion {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0; /*recordar que el primer valo es para arriba y abajo segundo valor derecha e izquierda*/
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*separar los elementos, antes se separaba con margin*/
+}
+.navegacion__enlace {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+.navegacion__enlace--activo, /*Modificador "bandera"*/
+.navegacion__enlace:hover { 
+    color: var(--secundario);
+}
+ 
