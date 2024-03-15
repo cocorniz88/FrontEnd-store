@@ -78,7 +78,7 @@ h3 {
 /*Navegacion*/
 .navegacion {
     background-color: var(--primarioOscuro);
-    padding: 1rem 0; /*recordar que el primer valo es para arriba y abajo segundo valor derecha e izquierda*/
+    padding: 1rem 0; /*recordar que el primer valor es para arriba y abajo segundo valor derecha e izquierda*/
     display: flex;
     justify-content: center;
     gap: 2rem; /*separar los elementos, antes se separaba con margin*/
